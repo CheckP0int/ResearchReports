@@ -1,7 +1,7 @@
 # Aggregated Research Providing Additional Context for FYP
 ## Repository Map
-**src/:** LaTeX src for each report.
-**The State of PQC.pdf:** Compiled PDF of src/The\ State\ of\ PQC/.
+**src/:** LaTeX src for each report.  
+**The State of PQC.pdf:** Compiled PDF of src/The\ State\ of\ PQC/.  
 **Fundamentals of NLP.pdf:** Compiled PDF of src/Fundamentals\ of\ NLP.
 <br>
 <br>
