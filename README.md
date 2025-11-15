@@ -5,7 +5,7 @@
 **Fundamentals of NLP.pdf:** Compiled PDF of src/Fundamentals\ of\ NLP.
 <br>
 <br>
-I, Daniel Rice, of the Department of Computer Science, University of Reading, confirm that this is my own work, and figures, tables, equations, code snippets, artworks, and illustrations in this report are original and have not been taken from any other person’s work, except where the works of others have been explicitly acknowledged, quoted, and referenced. I understand that failing to do so will be considered a case of plagiarism. Plagiarism is a form of academic misconduct and will be penalised accordingly.
+I, Daniel Rice, of the Department of Computer Science, University of Reading, confirm that this is my own work, and figures, tables, equations, code snippets, artworks, and illustrations in this repository are original and have not been taken from any other person’s work, except where the works of others have been explicitly acknowledged, quoted, and referenced. I understand that failing to do so will be considered a case of plagiarism. Plagiarism is a form of academic misconduct and will be penalised accordingly.
 <br>
 <br>
 ### BibTeX
