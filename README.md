@@ -9,18 +9,18 @@ I, Daniel Rice, of the Department of Computer Science, University of Reading, co
 <br>
 <br>
 ### BibTeX
-@misc{csgitlab:state_of_pqc,
-    author = "{Daniel Rice}",
-    title = "The State of PQC",
-    year = "2025",
-    howpublished = {\href{https://csgitlab.reading.ac.uk/xk013120/researchreports/-/raw/main/The State of PQC.pdf}{Link to The State of PQC PDF -- hosted on CSGitlab}},
-    note = "In event of dead-link, or changed content, visit: \href{TO_BE_FILLED}{WayBack Machine Backup Link} (with gratitude to Archive.org)"
-}
+@misc{csgitlab:state_of_pqc,  
+    author = "{Daniel Rice}",  
+    title = "The State of PQC",  
+    year = "2025",  
+    howpublished = {\href{https://csgitlab.reading.ac.uk/xk013120/researchreports/-/raw/main/The State of PQC.pdf}{Link to The State of PQC PDF -- hosted on CSGitlab}},  
+    note = "In event of dead-link, or changed content, visit: \href{TO_BE_FILLED}{WayBack Machine Backup Link} (with gratitude to Archive.org)"  
+}  
 
-@misc{csgitlab:nlp_fundamentals,
-    author = "{Daniel Rice}",
-    title = "Fundamentals of NLP",
-    year = "2025",
-    howpublished = {\href{https://csgitlab.reading.ac.uk/xk013120/researchreports/-/raw/main/Fundamentals of NLP.pdf}{Link to Fundamentals of NLP PDF -- hosted on CSGitlab}},
-    note = "In event of dead-link, or changed content, visit: \href{TO_BE_FILLED}{WayBack Machine Backup Link} (with gratitude to Archive.org)"
+@misc{csgitlab:nlp_fundamentals,  
+    author = "{Daniel Rice}",  
+    title = "Fundamentals of NLP",  
+    year = "2025",  
+    howpublished = {\href{https://csgitlab.reading.ac.uk/xk013120/researchreports/-/raw/main/Fundamentals of NLP.pdf}{Link to Fundamentals of NLP PDF -- hosted on CSGitlab}},  
+    note = "In event of dead-link, or changed content, visit: \href{TO_BE_FILLED}{WayBack Machine Backup Link} (with gratitude to Archive.org)"  
 }
