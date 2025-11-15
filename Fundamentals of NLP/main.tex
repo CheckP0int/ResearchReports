@@ -1,0 +1,56 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{main}
+\usepackage{wrapfig}
+\title{Fundamentals of NLP\vspace{0em}\\\small \textit{NLP basics relevant to FYP}}
+\author{\vspace{-1.7em}\\\textit{Daniel Rice}}
+
+\date{}
+\lstset{
+    basicstyle=\ttfamily,
+    columns=fullflexible,
+    frame=single,
+    breaklines=true,
+    postbreak=\mbox{\textcolor{red}{$\hookrightarrow$}\space},
+}
+
+\hypersetup{colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    citecolor=DarkBlue,
+    pdfauthor={Daniel Rice},
+    pdftitle={Fundamentals of NLP},
+    pdfsubject={Computer Science},
+    pdfkeywords={NLP; tldr.fail; Diffie-Hellman; Signal Protocol; Double-Ratchet Algorithm},
+}
+
+
+\makeatletter
+\def\@makechapterhead#1{%
+    {\parindent \z@ \raggedright \normalfont
+        \ifnum \c@secnumdepth >\m@ne
+        \huge\bfseries \@chapapp\space \thechapter
+        \par\nobreak
+        \vskip 10\p@ % Reduced from default
+        \fi
+        \interlinepenalty\@M
+        \Huge \bfseries #1\par\nobreak
+        \vskip 20\p@ % Reduced from default
+}}
+\makeatother
+
+
+\renewcommand{\lstlistingname}{Snippet}
+
+\begin{document}
+
+\maketitle
+
+\input{sections/Definition}
+
+
+\clearpage
+\bibliography{references}
+
+\end{document}
