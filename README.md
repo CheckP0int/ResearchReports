@@ -14,7 +14,7 @@ I, Daniel Rice, of the Department of Computer Science, University of Reading, co
     title = "The State of PQC",  
     year = "2025",  
     howpublished = {\href{https://csgitlab.reading.ac.uk/xk013120/researchreports/-/raw/main/The-State-of-PQC.pdf}{Link to The State of PQC PDF -- hosted on CSGitlab}},  
-    note = "In event of dead-link, or changed content, visit: \href{https://web.archive.org/web/20251213112439/https://csgitlab.reading.ac.uk/xk013120/researchreports/-/raw/main/The-State-of-PQC.pdf?ref_type=heads&inline=true}{WayBack Machine Backup Link} (with gratitude to Archive.org)"  
+    note = "In event of dead-link, or changed content, visit: {\href{https://web.archive.org/web/20251213112439/https://csgitlab.reading.ac.uk/xk013120/researchreports/-/raw/main/The-State-of-PQC.pdf?ref_type=heads&inline=true}{WayBack Machine Backup Link}} (with gratitude to Archive.org)"  
 }  
 
 @misc{csgitlab:nlp_fundamentals,  
@@ -22,5 +22,5 @@ I, Daniel Rice, of the Department of Computer Science, University of Reading, co
     title = "Fundamentals of NLP",  
     year = "2025",  
     howpublished = {\href{https://csgitlab.reading.ac.uk/xk013120/researchreports/-/raw/main/Fundamentals-of-NLP.pdf}{Link to Fundamentals of NLP PDF -- hosted on CSGitlab}},  
-    note = "In event of dead-link, or changed content, visit: \href{https://web.archive.org/web/20251213112502/https://csgitlab.reading.ac.uk/xk013120/researchreports/-/raw/main/Fundamentals-of-NLP.pdf?ref_type=heads&inline=true}{WayBack Machine Backup Link} (with gratitude to Archive.org)"  
+    note = "In event of dead-link, or changed content, visit: {\href{https://web.archive.org/web/20251213112502/https://csgitlab.reading.ac.uk/xk013120/researchreports/-/raw/main/Fundamentals-of-NLP.pdf?ref_type=heads&inline=true}{WayBack Machine Backup Link}} (with gratitude to Archive.org)"  
 }
