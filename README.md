@@ -24,3 +24,6 @@ I, Daniel Rice, of the Department of Computer Science, University of Reading, co
     howpublished = {\href{https://csgitlab.reading.ac.uk/xk013120/researchreports/-/raw/main/Fundamentals-of-NLP.pdf}{Link to Fundamentals of NLP PDF -- hosted on CSGitlab}},  
     note = "In event of dead-link, or changed content, visit: {\href{https://web.archive.org/web/20251213112502/https://csgitlab.reading.ac.uk/xk013120/researchreports/-/raw/main/Fundamentals-of-NLP.pdf?ref_type=heads&inline=true}{WayBack Machine Backup Link}} (with gratitude to Archive.org)"  
 }
+
+CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+![CCBY4](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png)
