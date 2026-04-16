@@ -1,0 +1,196 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="29.0.2">
+  <diagram name="Page-1" id="AH_f7gpGpx62rJBOepAF">
+    <mxGraphModel dx="1213" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wmbvdQVgA1cLZc2y_ULJ-2" target="wmbvdQVgA1cLZc2y_ULJ-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-2" value="Data collection (fabrication, for this project)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="90" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wmbvdQVgA1cLZc2y_ULJ-4" target="wmbvdQVgA1cLZc2y_ULJ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-4" value="Storing data (and encrypting and/or anonymising)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="300" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wmbvdQVgA1cLZc2y_ULJ-6" target="wmbvdQVgA1cLZc2y_ULJ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-6" value="Scheduler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="380" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#0050ef;strokeColor=light-dark(#0000FF,#7484A6);" edge="1" parent="1" source="wmbvdQVgA1cLZc2y_ULJ-8" target="wmbvdQVgA1cLZc2y_ULJ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-8" value="&lt;font style=&quot;&quot;&gt;Most- high-risk individuals&#39; communications of higher priority, in case of immediate attack, for example.&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=#0050ef;fontColor=light-dark(#FFFFFF,#FFFFFF);" vertex="1" parent="1">
+          <mxGeometry x="530" y="290" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#0050ef;strokeColor=light-dark(#0000FF,#7484A6);" edge="1" parent="1" source="wmbvdQVgA1cLZc2y_ULJ-10" target="wmbvdQVgA1cLZc2y_ULJ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-10" value="&lt;font style=&quot;&quot;&gt;No real data to be used in this project, whatsoever.&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=#0050ef;fontColor=light-dark(#FFFFFF,#FFFFFF);" vertex="1" parent="1">
+          <mxGeometry x="330" y="60" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-11" value="&lt;div&gt;Raw message&lt;/div&gt;&lt;div&gt;with metadata&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="140" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-12" value="Encrypted/anonymised message" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="152" y="353" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-13" value="Specific message to analyse" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="339" y="417" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-14" value="Threat Score" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="375" y="890" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-15" value="Management of Analysed Data" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-16" value="" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="131" y="500" width="680" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-17" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;NLP Layer&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=none;container=0;" vertex="1" parent="1">
+          <mxGeometry x="131" y="500" width="680" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wmbvdQVgA1cLZc2y_ULJ-19" target="wmbvdQVgA1cLZc2y_ULJ-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-19" value="Preprocessing and tokenisation" style="whiteSpace=wrap;html=1;rounded=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="171" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wmbvdQVgA1cLZc2y_ULJ-21" target="wmbvdQVgA1cLZc2y_ULJ-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-21" value="Feature Extraction" style="whiteSpace=wrap;html=1;rounded=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="371" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-22" value="Tokens" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;container=0;" vertex="1" parent="1">
+          <mxGeometry x="296" y="575" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wmbvdQVgA1cLZc2y_ULJ-24" target="wmbvdQVgA1cLZc2y_ULJ-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="556" y="630" />
+              <mxPoint x="431" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-24" value="Dense-embedding&lt;div&gt;Matrix&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;container=0;" vertex="1" parent="1">
+          <mxGeometry x="491" y="580" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;jumpStyle=arc;" edge="1" parent="1" source="wmbvdQVgA1cLZc2y_ULJ-26" target="wmbvdQVgA1cLZc2y_ULJ-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="676" y="640" />
+              <mxPoint x="491" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-26" value="Anomaly Detection" style="whiteSpace=wrap;html=1;rounded=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="616" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wmbvdQVgA1cLZc2y_ULJ-28" target="wmbvdQVgA1cLZc2y_ULJ-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-28" value="Zero-Shot Classifier" style="whiteSpace=wrap;html=1;rounded=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="616" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wmbvdQVgA1cLZc2y_ULJ-31" target="wmbvdQVgA1cLZc2y_ULJ-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="960" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="840" />
+              <mxPoint x="380" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-31" value="Classification Head" style="whiteSpace=wrap;html=1;rounded=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="371" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-32" value="Topic" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;container=0;" vertex="1" parent="1">
+          <mxGeometry x="531" y="660" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#0050ef;strokeColor=light-dark(#0000FF,#7484A6);" edge="1" parent="1" source="wmbvdQVgA1cLZc2y_ULJ-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="780" y="560" />
+              <mxPoint x="780" y="560" />
+            </Array>
+            <mxPoint x="780" y="615" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-34" value="&lt;font style=&quot;&quot;&gt;Below a set threshold, discard the message at this point (likely not of &#39;interest&#39;).&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=#0050ef;fontColor=light-dark(#FFFFFF,#FFFFFF);" vertex="1" parent="1">
+          <mxGeometry x="708" y="340" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#0050ef;strokeColor=light-dark(#0000FF,#7484A6);" edge="1" parent="1" source="wmbvdQVgA1cLZc2y_ULJ-36" target="wmbvdQVgA1cLZc2y_ULJ-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-36" value="&lt;font style=&quot;&quot;&gt;Topic prediction is required; some topics warrant more attention than others. If, for example,&amp;nbsp;an individual is plotting to kill a rival-gang member (potential murder, serious offence; higher threat score) vs. plotting to kill, e.g., a spider (which is of no interest).&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#001DBC;fillColor=#0050ef;fontColor=light-dark(#FFFFFF,#FFFFFF);" vertex="1" parent="1">
+          <mxGeometry x="530" y="770" width="215" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wmbvdQVgA1cLZc2y_ULJ-38" target="wmbvdQVgA1cLZc2y_ULJ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-38" value="Retrieve profile ID if this message&#39;s sender has been seen before" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="190" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-39" value="Profile ID" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="250" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=light-dark(#0000FF,#7484A6);" edge="1" parent="1" source="wmbvdQVgA1cLZc2y_ULJ-41" target="wmbvdQVgA1cLZc2y_ULJ-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-41" value="&lt;font style=&quot;&quot;&gt;Will use conversation history later for context in the NLP layer.&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=#0050ef;fontColor=light-dark(#FFFFFF,#FFFFFF);" vertex="1" parent="1">
+          <mxGeometry x="350" y="170" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wmbvdQVgA1cLZc2y_ULJ-39" target="wmbvdQVgA1cLZc2y_ULJ-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="265" />
+              <mxPoint x="70" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeColor=light-dark(#0000FF,#7484A6);" edge="1" parent="1" source="wmbvdQVgA1cLZc2y_ULJ-44" target="wmbvdQVgA1cLZc2y_ULJ-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-44" value="&lt;font style=&quot;&quot;&gt;Given the topic for the embedding matrix (densely-embedded message), the matrix itself, and the profile who this message belongs to, derive some threat score (taking context of previous messages into account where possible).&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#001DBC;fillColor=#0050ef;fontColor=light-dark(#FFFFFF,#FFFFFF);" vertex="1" parent="1">
+          <mxGeometry x="95" y="770" width="215" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-45" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;jumpStyle=arc;" edge="1" parent="1" target="wmbvdQVgA1cLZc2y_ULJ-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="680" as="sourcePoint" />
+            <mxPoint x="320" y="990.0000000000002" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="1000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-46" value="Profile ID" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="125" y="968" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-47" value="Profile ID" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="226" y="660" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=light-dark(#0000FF,#7484A6);" edge="1" parent="1" source="wmbvdQVgA1cLZc2y_ULJ-49" target="wmbvdQVgA1cLZc2y_ULJ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-49" value="&lt;font style=&quot;&quot;&gt;&#39;Management&#39;: to be accessed by some interface to allow, e.g., most-dangerous individuals to be given, as well as giving alerts for if an attack appears imminent.&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#001DBC;fillColor=#0050ef;fontColor=light-dark(#FFFFFF,#FFFFFF);" vertex="1" parent="1">
+          <mxGeometry x="548" y="960" width="207" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-50" value="" style="endArrow=classic;html=1;rounded=0;jumpStyle=arc;" edge="1" parent="1" source="wmbvdQVgA1cLZc2y_ULJ-24" target="wmbvdQVgA1cLZc2y_ULJ-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="620" as="sourcePoint" />
+            <mxPoint x="620" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wmbvdQVgA1cLZc2y_ULJ-51" value="Error in reconstruction&lt;div&gt;from autoencoder&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;container=0;" vertex="1" parent="1">
+          <mxGeometry x="671" y="610" width="140" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
