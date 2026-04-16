@@ -25,5 +25,13 @@ I, Daniel Rice, of the Department of Computer Science, University of Reading, co
     note = "In event of dead-link, or changed content, visit: {\href{https://web.archive.org/web/20251213112502/https://csgitlab.reading.ac.uk/xk013120/researchreports/-/raw/main/Fundamentals-of-NLP.pdf?ref_type=heads&inline=true}{WayBack Machine Backup Link}} (with gratitude to Archive.org)"  
 }
 
+@misc{csgitlab:word2vec,  
+    author = "{Daniel Rice}",  
+    title = "Word2Vec",  
+    year = "2026",  
+    howpublished = {\href{https://csgitlab.reading.ac.uk/xk013120/researchreports/-/raw/main/Word2Vec.pdf}{Link to Word2Vec PDF -- hosted on CSGitlab}},  
+    note = "In event of dead-link, or changed content, visit: {\href{http://web.archive.org/web/20260416153549/https://csgitlab.reading.ac.uk/xk013120/researchreports/-/raw/main/Word2Vec.pdf}{WayBack Machine Backup Link}} (with gratitude to Archive.org)"  
+}
+
 CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 ![CCBY4](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png)
