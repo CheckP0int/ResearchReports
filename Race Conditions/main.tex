@@ -1,0 +1,49 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{main}
+\usepackage{wrapfig}
+\title{Race Conditions\vspace{0em}\\\small \textit{A simple,  yet prominent, issue in concurrency}}
+\author{\vspace{-1.7em}\\\textit{Daniel Rice}}
+
+\date{}
+\lstset{
+    basicstyle=\ttfamily,
+    columns=fullflexible,
+    frame=single,
+    breaklines=true,
+    postbreak=\mbox{\textcolor{red}{$\hookrightarrow$}\space},
+}
+
+\makeatletter
+\def\@makechapterhead#1{%
+    {\parindent \z@ \raggedright \normalfont
+        \ifnum \c@secnumdepth >\m@ne
+        \huge\bfseries \@chapapp\space \thechapter
+        \par\nobreak
+        \vskip 10\p@ % Reduced from default
+        \fi
+        \interlinepenalty\@M
+        \Huge \bfseries #1\par\nobreak
+        \vskip 20\p@ % Reduced from default
+}}
+\makeatother
+
+
+\renewcommand{\lstlistingname}{Snippet}
+
+\begin{document}
+
+\maketitle
+
+\input{sections/Definition}
+\input{sections/Example}
+\input{sections/Causes}
+\input{sections/Deadlocks}
+\input{sections/Solutions}
+\input{sections/Race-Condition_Vulnerability}
+
+
+\clearpage
+\bibliography{references}
+
+\end{document}

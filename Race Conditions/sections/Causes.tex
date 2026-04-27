@@ -1,0 +1,23 @@
+\section{Causes}
+\subsection{Concurrent Access to Shared Resources}
+Given some shared resources, e.g. a counter, as shown before, there is concurrent access, in snippet \ref{list:simple_race_condition} there is concurrent access to the shared resource \texttt{counter} by each of the separate, concurrently executing, threads.
+
+Concurrent access to a shared resource presents a race condition due to the way in which operations are performed - that is to say, without guaranteeing atomicity. For example, in snippet \ref{list:simple_race_condition}, control-flow may be alike the following:
+
+(\textit{Let \texttt{T1} be thread 1; \texttt{T2} is thread 2.}
+
+\textit{Let \texttt{T1} run \texttt{increment()}; \texttt{T2} runs \texttt{decrement()}.})
+\begin{enumerate}
+    \item \texttt{T1} reads \texttt{counter}'s value into CPU register \texttt{R1}.
+    \item \texttt{T1} computes \(\texttt{R1}+1\) (increment operation), storing the result back in \texttt{R1}.
+    \item \texttt{T2} reads \texttt{counter}'s value into CPU register \texttt{R2}.
+    \item \texttt{T1} stores \texttt{R1} back in \texttt{counter}.
+    \item \texttt{T2} computes \(\texttt{R2}-1\) (decrement operation), storing the result back in \texttt{R2}.
+    \item \texttt{T2} stores \texttt{R2} back in \texttt{counter}.
+\end{enumerate}
+In the above sequence, the increment operation from \texttt{T1} is lost, since it is overwritten by the value computed by \texttt{T2}, however crucially \texttt{T2} computed its decremented value of \texttt{counter} before \texttt{T1} had finished its computation \textbf{and} stored its result back in \texttt{counter}, as such the increment operation from \texttt{T1} is no longer present in \texttt{counter}; this is known as a lost update.\\
+This specific type of race condition (concurrent access to the same memory location, where at least one access is a write operation) is known as a data race.
+
+\subsection{Lack of Synchronisation}
+The program shown in snippet \ref{list:simple_race_condition} could, in theory, print \texttt{counter}'s value to be 0, the chance would be astronomical, since the order of operations would have to be such that on all two-million total operations, each thread always reads the value of \texttt{counter} just after the other thread has written to \texttt{counter}; in one-million increments and decrements, one-million was chosen to ensure that even with astronomical-luck (in that perhaps even half the operations are perfectly synchronised), there will still be a large delta (from zero) in the final \texttt{counter}-output\footnote{Zero since if doing the same number of increment and decrement operations, atomically, \texttt{counter} should be the same value: zero}\\
+The solution is, therefore, to synchronise (write) accesses to the shared resource: \texttt{counter}.

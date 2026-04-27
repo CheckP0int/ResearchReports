@@ -1,0 +1,4 @@
+\section{Deadlocks}
+\label{Deadlocks}
+Deadlocks occur when a process, \texttt{P1}, is waiting for a resource held by another process, \texttt{P2}, which, in turn, is waiting for an additional resource to be released, currently held by \texttt{P1}.\\
+This cyclical-waiting will result in indefinite waiting for each process; neither will terminate, unless a form of deadlock detection-and-recovery is employed at the OS-level\footnote{This may involve termination of a process.}. Alternatively, this may be avoided using a form of deadlock avoidance, again implemented at the OS-level. Deadlock avoidance involves using Banker's Algorithm to determine a safe sequence of processes to run, such that the order the processes are run in will not result in a deadlock, as it is known how much of a given resource a given process will require ahead-of-time; in practice, however, this (maximum resources known ahead-of-time) is seldom true.
